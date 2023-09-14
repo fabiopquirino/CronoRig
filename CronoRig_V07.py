@@ -490,6 +490,7 @@ botão_iniciar = Button(root, text= "Iniciar", font=("Helvetica", 12), command =
 #botão_pausar = Button(root, text= "Pausar/Despausar", font=("Helvetica", 12))#, command = PausarExperimento)
 botão_finalizar = Button(root, text= "Finalizar", font=("Helvetica", 12), command = termina)
 Transicao(0)
+root.mainloop()
     
 
 
